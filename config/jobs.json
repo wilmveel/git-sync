@@ -1,8 +1,12 @@
 [
 	{
-		"from": "123456789"
-	},
-	{
-
+		"from": {
+			"url": "https://github.com/angular/angular.git",
+			"branch": "master"
+		},
+		"to": {
+			"url": "https://github.com/wilmveel/test.git",
+			"branch": "master"
+		}
 	}
 ]

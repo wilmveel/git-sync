@@ -1,0 +1,35 @@
+[
+	{
+		"name": "wilmveel-test",
+		"url": "https://github.com/wilmveel/test.git",
+		"branches": [
+			"master"
+		],
+		"cron": "*/6 * * * * *"
+	},
+	{
+		"name": "wilmveel-wp-angular-theme",
+		"url": "https://github.com/wilmveel/wp-angular-theme.git",
+		"branches": [
+			"master"
+		],
+		"cron": "0 * * * * *"
+	},
+	{
+		"name": "sentientwaffle-gift",
+		"url": "https://github.com/sentientwaffle/gift.git",
+		"branches": [
+			"master"
+		],
+		"cron": "*/10 * * * * *"
+	},
+	{
+		"name": "angular",
+		"url": "https://github.com/angular/angular.git",
+		"branches": [
+			"master",
+			"docs"
+		],
+		"cron": "*/10 * * * * *"
+	}
+]

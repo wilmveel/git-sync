@@ -21,10 +21,14 @@
   },
   "homepage": "https://github.com/wilmveel/git-sync",
   "dependencies": {
-    "express": "^4.11.2"
+    "cron": "^1.0.6",
+    "express": "^4.11.2",
+    "nodegit": "^0.2.7",
+    "promise": "^6.1.0"
   },
   "devDependencies": {
     "gift": "^0.5.0",
+    "git-wrapper": "^0.1.1",
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-watch": "~0.6.1",
