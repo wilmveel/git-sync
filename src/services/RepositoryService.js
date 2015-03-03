@@ -32,7 +32,7 @@ fs.watchFile(file, function(){
 		callbacks.forEach(function(callback){
 			callback();
 		});
-	})
+	});
 });
 
 var repositoryService = {
@@ -47,7 +47,7 @@ var repositoryService = {
 			readFile(function(err, repositories){
 				if(err) callback(err);
 				else callback(null, repositories);
-			})
+			});
 		}
 	},
 

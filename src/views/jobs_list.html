@@ -1,0 +1,20 @@
+<div class="list-group">
+  <a href="#" class="list-group-item" ng-repeat="job in jobs">
+    
+    <div class="row">
+      <div class="col-md-5">
+        <p>{{job.from.url}}#{{job.from.branch}}</p>
+      </div>
+
+      <div class="col-md-2" style="text-align:center">
+        <span style="font-size:24px;"class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+      </div>
+
+      <div class="col-md-5" style="text-align:right">
+        <p>{{job.to.url}}#{{job.to.branch}}</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<a class="btn btn-primary" href="#/jobs/add">Add</a>

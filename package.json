@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wilmveel/git-sync",
   "dependencies": {
+    "async": "^0.9.0",
     "cron": "^1.0.6",
     "express": "^4.11.2",
     "nodegit": "^0.2.7",
@@ -32,6 +33,6 @@
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-execute": "~0.2.2"
+    "grunt-express-server": "^0.4.19"
   }
 }

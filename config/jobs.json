@@ -1,12 +1,18 @@
 [
 	{
+		"name": "bower-angular",
+		"strategie": "one-way",
 		"from": {
-			"url": "https://github.com/angular/angular.git",
+			"source": "github",
+			"url": "http://github.com/angular/bower-angular.git",
 			"branch": "master"
 		},
 		"to": {
+			"type": "local",
 			"url": "https://github.com/wilmveel/test.git",
 			"branch": "master"
-		}
+		},
+		"cron": "0 * * * * *"
+
 	}
 ]

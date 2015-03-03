@@ -1,35 +1,45 @@
 [
 	{
-		"name": "wilmveel-test",
-		"url": "https://github.com/wilmveel/test.git",
+		"name": "bower-angular",
+		"url": "https://github.com/angular/bower-angular",
 		"branches": [
 			"master"
-		],
-		"cron": "*/6 * * * * *"
+		]
 	},
 	{
-		"name": "wilmveel-wp-angular-theme",
-		"url": "https://github.com/wilmveel/wp-angular-theme.git",
+		"name": "bower-angular-route",
+		"url": "https://github.com/angular/bower-angular-route",
 		"branches": [
 			"master"
-		],
-		"cron": "0 * * * * *"
+		]
 	},
 	{
-		"name": "sentientwaffle-gift",
-		"url": "https://github.com/sentientwaffle/gift.git",
+		"name": "bower-angular-mocks",
+		"url": "https://github.com/angular/bower-angular-mocks",
 		"branches": [
 			"master"
-		],
-		"cron": "*/10 * * * * *"
+		]
 	},
 	{
-		"name": "angular",
-		"url": "https://github.com/angular/angular.git",
+		"name": "bower-angular-animate",
+		"url": "https://github.com/angular/bower-angular-animate",
 		"branches": [
-			"master",
-			"docs"
-		],
-		"cron": "*/10 * * * * *"
+			"master"
+		]
+	},
+	{
+		"name": "bower-angular-cookies",
+		"url": "https://github.com/angular/bower-angular-cookies",
+		"branches": [
+			"master"
+		]
+	},
+	{
+		"name": "bower-angular-sanitize",
+		"url": "https://github.com/angular/bower-angular-sanitize",
+		"branches": [
+			"master"
+		]
 	}
+
 ]

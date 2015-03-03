@@ -1,0 +1,20 @@
+<div class="list-group">
+  <a href="#" class="list-group-item" ng-repeat="repository in repositories">
+    
+    <div class="row" ng-click="goEdit(repository)">
+	    <div class="col-xs-10">
+	      <div class="col-sm-5">
+	        <p><strong>{{repository.name}}</strong></p>
+	      </div>
+	      <div class="col-sm-7" >
+	        <p>{{repository.url}}</p>
+	      </div>
+	    </div>
+	      <div class="col-xs-2" >
+	        <span class="glyphicon glyphicon-time" ng-show="{{repository.cron}}"></span>
+	      </div>
+    </div>
+  </a>
+</div>
+
+<button ng-click="goAdd()" class="btn btn-primary" href="#/jobs/add">Add</button>
